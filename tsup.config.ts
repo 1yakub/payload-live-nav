@@ -9,9 +9,7 @@ export default defineConfig([
     sourcemap: true,
   },
   {
-    // Client components: tsup strips directives during bundling, so the
-    // banner puts 'use client' back at the top of each output file.
-    banner: { js: "'use client'" },
+    // tsup preserves the 'use client' directives from the sources.
     dts: true,
     entry: { client: 'src/client.tsx', frontend: 'src/frontend.tsx' },
     format: ['esm'],
