@@ -1,6 +1,6 @@
 # payload-live-nav
 
-[![npm version](https://img.shields.io/npm/v/payload-live-nav)](https://www.npmjs.com/package/payload-live-nav) [![license](https://img.shields.io/npm/l/payload-live-nav)](https://github.com/1yakub/payload-live-nav/blob/main/LICENSE) [![Payload 3](https://img.shields.io/badge/payload-%3E%3D3.0.0-blue)](https://payloadcms.com)
+[![CI](https://github.com/1yakub/payload-live-nav/actions/workflows/ci.yml/badge.svg)](https://github.com/1yakub/payload-live-nav/actions/workflows/ci.yml) [![npm version](https://img.shields.io/npm/v/payload-live-nav)](https://www.npmjs.com/package/payload-live-nav) [![license](https://img.shields.io/npm/l/payload-live-nav)](https://github.com/1yakub/payload-live-nav/blob/main/LICENSE) [![Payload 3](https://img.shields.io/badge/payload-%3E%3D3.0.0-blue)](https://payloadcms.com)
 
 Section navigation for the Payload admin, wired to Live Preview. Click a section in a small index panel and both the edit form and the preview jump there. Focus any field and the preview scrolls to that element and flashes it.
 
