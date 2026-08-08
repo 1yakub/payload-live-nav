@@ -2,7 +2,7 @@
 
 Section navigation for the Payload admin, wired to Live Preview. Click a section in a small index panel and both the edit form and the preview jump there. Focus any field and the preview scrolls to that element and flashes it.
 
-<!-- GIF goes here before publish -->
+![payload-live-nav demo: live typing, section jumps and the focus flash in the Payload admin](docs/demo.gif)
 
 Payload's Live Preview shows you the page while you edit, but on a long page you still scroll the form and the preview separately, hunting for the field you want. This closes that gap.
 
