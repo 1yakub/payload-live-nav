@@ -13,8 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
+      # pnpm 11 itself needs Node >= 22.13, so the build tooling sets the floor
+      # here, not the plugin (which ships browser side ESM).
       matrix:
-        node: [20, 22]
+        node: [22, 24]
     steps:
       - uses: actions/checkout@v4
         with:
